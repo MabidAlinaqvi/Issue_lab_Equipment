@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:weightSum="3"
+    android:orientation="horizontal"
+    android:background="#687282">
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="124dp"
+        android:layout_height="77dp"
+        android:gravity="center"
+        android:text="userid"
+        android:textSize="15dp"
+        android:textColor="#FFF"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/mess"
+        android:layout_width="125dp"
+        android:layout_height="77dp"
+        android:gravity="center"
+        android:text="message"
+        android:textSize="15dp"
+        android:textColor="#FFF"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/issu"
+        android:layout_width="125dp"
+        android:layout_height="78dp"
+        android:gravity="center"
+        android:background="@drawable/button"
+        android:textSize="15dp"
+        android:textColor="#FFFFFF"
+        android:text="Return"
+        android:layout_weight="1"/>
+
+</LinearLayout>

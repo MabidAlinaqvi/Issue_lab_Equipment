@@ -1,0 +1,141 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.ee_lab_project.Controller.S_search_component">
+    <TextView
+        android:id="@+id/analog"
+        android:layout_width="209dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginStart="20dp"
+        android:textColor="#FFF"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="8dp"
+        android:text="analogue"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginRight="156dp"
+        android:layout_marginLeft="20dp" />
+
+    <Spinner
+        android:id="@+id/analog_spin"
+        android:layout_width="match_parent"
+        android:layout_below="@id/analog"
+        android:layout_alignParentTop="true"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="52dp"
+        android:tag="analogue" />
+
+    <TextView
+        android:id="@+id/digital"
+        android:layout_width="209dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="20dp"
+        android:layout_below="@id/analog_spin"
+        android:layout_alignParentTop="true"
+        android:textColor="#FFF"
+        android:layout_marginEnd="156dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="100dp"
+        android:text="digital_electronic"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginRight="156dp" />
+
+    <Spinner
+        android:id="@+id/digital_spin"
+        android:layout_width="match_parent"
+        android:layout_below="@id/digital"
+        android:layout_alignParentTop="true"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="164dp"
+        android:tag="digital_electronic"/>
+
+    <TextView
+        android:id="@+id/digital_sig"
+        android:layout_width="209dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="20dp"
+        android:layout_below="@id/digital_spin"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="8dp"
+        android:textColor="#FFF"
+        android:layout_marginEnd="156dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="204dp"
+        android:text="digital_signal"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginRight="156dp" />
+
+    <Spinner
+        android:id="@+id/sig_spin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/digital_sig"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:tag="digital_signal" />
+
+    <TextView
+        android:id="@+id/physics"
+        android:layout_width="209dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="156dp"
+        android:textColor="#FFF"
+        android:layout_below="@id/sig_spin"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:text="physics_robotics"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginRight="156dp" />
+
+    <Spinner
+        android:id="@+id/physics_spin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/physics"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:tag="physics_robotics" />
+
+    <TextView
+        android:id="@+id/eng_work"
+        android:layout_width="209dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:textColor="#FFF"
+        android:layout_marginLeft="16dp"
+        android:layout_below="@id/physics_spin"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:text="Engeering_workshop"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginRight="8dp" />
+
+    <Spinner
+        android:id="@+id/eng_spin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/eng_work"
+        android:layout_marginBottom="44dp"
+        android:tag="eng_workshop"
+        android:layout_marginTop="8dp" />
+
+</RelativeLayout>
+</ScrollView>

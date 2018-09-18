@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.ee_lab_project.Controller.T_account">
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/linear" />
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="horizontal"
+        android:background="#3e5e93"
+        android:weightSum="4">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="student"
+            android:textSize="15dp"
+            android:textColor="#FFF"
+            android:layout_weight="1"/>
+
+        <TextView
+
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="comp_name"
+            android:textSize="15dp"
+            android:textColor="#FFF"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="99dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="     issue date"
+            android:textSize="15dp"
+            android:textColor="#FFF"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="97dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="     due date"
+            android:textSize="15dp"
+            android:textColor="#FFF"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</RelativeLayout>

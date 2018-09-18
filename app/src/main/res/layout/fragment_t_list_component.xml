@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.ee_lab_project.Controller.t_list_component">
+
+
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/linearLayout" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3e5e93"
+        android:weightSum="4">
+
+        <TextView
+            android:id="@+id/user_nam"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="comp_name"
+            android:textSize="15dp"
+            android:textColor="#FFF"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/comp_nam"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="comp_type"
+            android:textSize="15dp"
+            android:textColor="#FFF"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/issu_dat"
+            android:layout_width="99dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="comp_status"
+            android:textSize="15dp"
+            android:textColor="#FFF"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/du_dat"
+            android:layout_width="97dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="quantity"
+            android:textSize="15dp"
+            android:textColor="#FFF"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</RelativeLayout>

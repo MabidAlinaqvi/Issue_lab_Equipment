@@ -1,0 +1,15 @@
+<!--built in android-->
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.just_to_get_vertical_ellipse_code.MainActivity">
+<!--    <item
+        android:id="@+id/Setting"
+        android:title="@string/Setting"
+        android:orderInCategory="1"/>-->
+    <item
+        android:id="@+id/logout"
+        android:title="@string/LogOut"
+        android:orderInCategory="2"/>
+</menu>

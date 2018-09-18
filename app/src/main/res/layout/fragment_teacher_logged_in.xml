@@ -1,0 +1,69 @@
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.android.ee_lab_project.Controller.Teacher_loggedIn">
+
+        <!-- TODO: Update blank fragment layout -->
+        <Button
+            android:id="@+id/account"
+            android:layout_width="175dp"
+            android:layout_height="62dp"
+            android:layout_above="@id/comp_return"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/button"
+            android:text="Account"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/comp_return"
+            android:layout_width="175dp"
+            android:layout_height="62dp"
+            android:layout_above="@id/comp_issue"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button"
+            android:text="Return Component"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/comp_issue"
+            android:layout_width="175dp"
+            android:layout_height="62dp"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button"
+            android:text="Issue component"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/comp_list"
+            android:layout_width="175dp"
+            android:layout_height="62dp"
+            android:layout_below="@id/comp_issue"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button"
+            android:text="View Component list"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp"
+            android:textStyle="italic" />
+    </RelativeLayout>
